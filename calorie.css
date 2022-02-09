@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+body {
+  background-color: #1a1a1b !important;
+}
+.page-title h1 {
+  font-size: 40px;
+  font-family: 'Acme', sans-serif;
+  color: white;
+}
+.page-title span {
+  color: #db0f33;
+}
+.calculater-sec {
+  background-color: #111112;
+  padding: 35px;
+  border-radius: 15px;
+  width: 90%;
+}
+
+.calculater-sec form label {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-align: center;
+  max-width: 100%;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+.calculater-sec form label h1 {
+  font-size: 22px;
+  width: 88px !important;
+  display: inline;
+  font-family: 'Oswald', sans-serif;
+  padding-right: 10px;
+  color: white;
+}
+.input {
+  background-color: #1a1a1b;
+  border-radius: 9px;
+  border-color: #737373;
+  color: white;
+  padding: 4px;
+  caret-color: #959393;
+  width: 50%;
+  font-family: 'Oswald', sans-serif;
+
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+input::placeholder {
+  text-align: right;
+}
+input:focus {
+  outline: none !important;
+  border: 1px solid red;
+  box-shadow: 0 0 5px #db0f33;
+}
+.cal-img {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.cal-img img {
+  margin-top: 20px;
+  width: 360px;
+  align-self: center;
+}
+.ul-1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li h1 {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+li span {
+  color: #db0f33;
+}
+.li-1 {
+  float: left;
+  margin-left: 20px;
+}
+nav {
+  background-color: #111112;
+}
+.ul-2 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.ul-2 li {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+.ul-2 li a {
+  display: block;
+  color: white !important;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-right: 10px;
+}
+.sec1 {
+  margin-top: 50px;
+}
+.gender-chk span {
+  margin-right: 9px;
+  color: #bbb9b9;
+  margin-left: 9px;
+}
+.submit-form {
+  background-color: #db0f33 !important;
+  color: white !important;
+  border-radius: 11px !important;
+  width: 167px;
+  padding: 5px !important;
+  cursor: pointer;
+  border-color: #c6cece !important ;
+  margin-right: 10px;
+  font-family: 'Oswald', sans-serif;
+
+}
+.rest-from {
+  background-color: #c4c4c4 !important;
+  color: #1a1a1b !important;
+  border-radius: 11px !important;
+  width: 120px;
+  padding: 5px !important;
+  cursor: pointer;
+  font-family: 'Oswald', sans-serif;
+
+  margin-left: 10px;
+}
+.submit-clear {
+  display: flex;
+
+  justify-content: center;
+}
+.SC2R1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+.SC2R1 h1 {
+  color: white;
+  text-align: center;
+  font-family: 'Acme', sans-serif;
+
+}
+.related {
+}
+.SC2R2-col h1 {
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+
+}
+.SC2R2 {
+  display: flex;
+  justify-content: center;
+}
+.sec3 {
+  background-color: #111112;
+  padding: 25px;
+  margin-top: 15px;
+}
+.SC2R2-col {
+}
+.related-img {
+  display: flex;
+  justify-content: center;
+}
+.img-related {
+  width: 50%;
+}
+.bdy-fat {
+  display: flex;
+  justify-content: center;
+}
+.bmi {
+  display: flex;
+  justify-content: center;
+}
+.sec4 {
+  margin-top: 20px;
+}
+.R1S4 h4 {
+  color: white;
+  font-family: 'Acme', sans-serif;
+font-size: 30px;
+}
+.R1S4 p {
+  color: #b6b2b2;
+}
+.ft {
+  background-image: url(./imgs/footer-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+}
+.FR1 {
+  display: flex;
+  justify-content: center;
+}
+.FR1 img {
+  filter: drop-shadow(5px 5px 5px #000000);
+  -webkit-filter: drop-shadow(5px 5px 5px #000000);
+  -moz-filter: drop-shadow(5px 5px 5px #000000);
+  max-width: 180px;
+}
+.Gender{
+    width: 18px;
+}

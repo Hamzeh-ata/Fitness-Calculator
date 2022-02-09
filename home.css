@@ -45,8 +45,6 @@ a{
     text-align: center;
     cursor: pointer;
     font-family: 'Oswald', sans-serif;
-    text-shadow: 2px 2px 2px #000000;
-
     margin-top: 10px;
     filter: drop-shadow(8px 5px 5px #000000);
 -webkit-filter: drop-shadow(8px 5px 5px #000000);
@@ -56,12 +54,13 @@ a{
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 10px;
 }
 .model-img img{
     height: 100%;
     width: 50%;
     max-width: 100%;
+    margin-top: 15px;
+    margin-right: 15px;
 }
 .secOcontent{
     align-self: center;

@@ -7,6 +7,7 @@ body {
   font-size: 40px;
   font-family: 'Acme', sans-serif;
   color: white;
+  margin-left: 35px;
 }
 .page-title span {
   color: #db0f33;
@@ -65,14 +66,14 @@ input:focus {
   border: 1px solid red;
   box-shadow: 0 0 5px #db0f33;
 }
-.cal-img {
+.S1R2C1{
   display: flex;
   justify-content: center;
   align-self: center;
 }
 .cal-img img {
   margin-top: 20px;
-  width: 360px;
+  MAX-width: 360px;
   align-self: center;
 }
 .ul-1 {

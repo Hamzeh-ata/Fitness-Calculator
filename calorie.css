@@ -84,9 +84,14 @@ input:focus {
   justify-content: center;
   align-self: center;
 }
+.cal-img{
+  display: flex;
+  justify-content: center;
+}
 .cal-img img {
   margin-top: 20px;
-  MAX-width: 360px;
+  width: 80%;
+  max-width: 100%;
   align-self: center;
 }
 .ul-1 {

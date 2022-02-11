@@ -254,3 +254,26 @@ font-size: 30px;
 .Gender{
     width: 18px;
 }
+@media screen and (max-width: 800px) {
+  .cal-img img{
+    display: none;
+  }
+}
+.result-text{
+  padding-top: 11px;
+  display: block;
+}
+.result-text h2{
+  color: #b6b2b2;
+  font-size: 18px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+
+}
+.result h1 {
+  color: #db0f33;
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Oswald', sans-serif;
+
+}

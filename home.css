@@ -96,8 +96,8 @@ a{
     margin-top: 5px;
 }
 .icon-img img {
-    width: 70%;
-    max-width: 100%;
+    width: 65%;
+    max-width: 85%;
 }
 .icon-span span{
 color: #BDB8B8;
@@ -213,7 +213,7 @@ justify-content: center;
     -moz-filter: drop-shadow(5px 5px 5px #000000);
     max-width: 180px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 950px) {
     .model-img img{
       display: none;
     }

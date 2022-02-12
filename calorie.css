@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
 body {
   background-color: #1a1a1b !important;
 }
@@ -259,21 +260,33 @@ font-size: 30px;
     display: none;
   }
 }
-.result-text{
+.calorie-text{
   padding-top: 11px;
-  display: block;
 }
-.result-text h2{
+#calorie-text{
+  display: none;
+}
+#result-text{
+  display: none;
+}
+
+#calorie-text{
   color: #b6b2b2;
   font-size: 18px;
   text-align: center;
   font-family: 'Oswald', sans-serif;
 
 }
-.result h1 {
+#result-text {
   color: #db0f33;
   text-align: center;
   font-size: 35px;
+  font-family: 'Rubik', sans-serif;
+}
+.warning-text h2{
+  color: #db0f33;
+  font-size: 12px;
+  text-align: center;
   font-family: 'Oswald', sans-serif;
-
+  display: none;
 }

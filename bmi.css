@@ -142,7 +142,7 @@ nav {
   background-color: #db0f33;
 }
 .sec1 {
-  margin-top: 50px;
+  padding: 80px;
 }
 .gender-chk span {
   margin-right: 9px;
@@ -240,7 +240,8 @@ font-size: 30px;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 50px;
-}
+  width: 100%;
+ }
 .FR1 {
   display: flex;
   justify-content: center;
@@ -258,4 +259,49 @@ font-size: 30px;
   .cal-img img{
     display: none;
   }
+  .calculater-sec{
+    justify-content: center;
+    display: flex; 
+  }
+}
+.sec5 {
+  background-color: #131313;
+  padding: 55px;
+}
+.sec-R1 {
+  display: flex;
+  justify-content: center;
+}
+.sec-R2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+.icon-img {
+  display: flex;
+  justify-content: center;
+  filter: drop-shadow(1px 5px 5px #000000);
+  -webkit-filter: drop-shadow(1px 5px 5px #000000);
+  -moz-filter: drop-shadow(1px 5px 5px #000000);
+  margin-top: 5px;
+}
+.icon-img img {
+  width: 65%;
+  max-width: 85%;
+}
+.icon-span span {
+  color: #bdb8b8;
+}
+.icon-span {
+  text-align: center;
+  margin-top: 8px;
+  font-family: "Oswald", sans-serif;
+}
+.secTHead h1 {
+  color: whitesmoke;
+  font-size: 33px;
+  text-align: center;
+  text-shadow: 3px 2px 2px #000000;
+  justify-self: center;
+  font-family: "Yanone Kaffeesatz", sans-serif;
 }

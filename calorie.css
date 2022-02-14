@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
 body {
-  background-color: #1a1a1b !important;
+  background-color: #1F2022 !important;
 }
 .page-title h1 {
-  font-size: 40px;
+  font-size: 72px;
   font-family: 'Acme', sans-serif;
   color: white;
   margin-left: 35px;
@@ -116,7 +116,7 @@ li span {
   margin-left: 20px;
 }
 nav {
-  background-color: #111112;
+  background-color: #131313;
 }
 .ul-2 {
   list-style-type: none;
@@ -143,7 +143,8 @@ nav {
   background-color: #db0f33;
 }
 .sec1 {
-  margin-top: 50px;
+  background-color: #1F2022;
+  padding: 80px;
 }
 .gender-chk span {
   margin-right: 9px;
@@ -180,7 +181,6 @@ nav {
 .SC2R1 {
   display: flex;
   justify-content: center;
-  margin-top: 150px;
 }
 .SC2R1 h1 {
   color: white;
@@ -202,7 +202,7 @@ nav {
   justify-content: center;
 }
 .sec3 {
-  background-color: #111112;
+  background-color: #131313;
   padding: 25px;
   margin-top: 15px;
 }
@@ -225,15 +225,16 @@ nav {
 }
 .sec4 {
   margin-top: 20px;
+  padding: 55px;
 }
 .R1S4 h4 {
   color: white;
   font-family: 'Acme', sans-serif;
-font-size: 30px;
+font-size: 44px;
 }
 .R1S4 p {
   color: #b6b2b2;
-  font-size: 18px;
+  font-size: 20px;
 }
 .ft {
   background-image: url(./imgs/footer-bg.jpg);
@@ -241,6 +242,7 @@ font-size: 30px;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 50px;
+  width: 100%;
 }
 .FR1 {
   display: flex;
@@ -258,6 +260,10 @@ font-size: 30px;
 @media screen and (max-width: 800px) {
   .cal-img img{
     display: none;
+  }
+  .calculater-sec{
+    justify-content: center;
+    display: flex;
   }
 }
 .calorie-text{
@@ -289,4 +295,45 @@ font-size: 30px;
   text-align: center;
   font-family: 'Oswald', sans-serif;
   display: none;
+}
+.sec5 {
+  background-color: #131313;
+  padding: 55px;
+}
+.sec-R1 {
+  display: flex;
+  justify-content: center;
+}
+.sec-R2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+.icon-img {
+  display: flex;
+  justify-content: center;
+  filter: drop-shadow(1px 5px 5px #000000);
+  -webkit-filter: drop-shadow(1px 5px 5px #000000);
+  -moz-filter: drop-shadow(1px 5px 5px #000000);
+  margin-top: 5px;
+}
+.icon-img img {
+  width: 65%;
+  max-width: 85%;
+}
+.icon-span span {
+  color: #bdb8b8;
+}
+.icon-span {
+  text-align: center;
+  margin-top: 8px;
+  font-family: "Oswald", sans-serif;
+}
+.secTHead h1 {
+  color: whitesmoke;
+  font-size: 33px;
+  text-align: center;
+  text-shadow: 3px 2px 2px #000000;
+  justify-self: center;
+  font-family: "Yanone Kaffeesatz", sans-serif;
 }

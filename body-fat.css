@@ -309,3 +309,33 @@ font-size: 30px;
   justify-self: center;
   font-family: "Yanone Kaffeesatz", sans-serif;
 }
+.calorie-text{
+  padding-top: 11px;
+}
+#calorie-text{
+  display: none;
+}
+#result-text{
+  display: none;
+}
+
+#calorie-text{
+  color: #b6b2b2;
+  font-size: 18px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+
+}
+#result-text {
+  color: #db0f33;
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Rubik', sans-serif;
+}
+.warning-text h2{
+  color: #db0f33;
+  font-size: 12px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  display: none;
+}

@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <title>BMI Calculator</title>
     <link rel="stylesheet" href="./calorie.css" />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous"
+  />
+      
   </head>
   <body>
     <nav>
@@ -30,10 +31,10 @@
         <div class="row">
           <div class="col-lg-6 col-md-6 col-sm-12 S1R2C1">
             <div class="calculater-sec">
-              <form>
+              <form id="formSec">
                 <label>
                   <h1>Age</h1>
-                  <input type="number" required class="input" />
+                  <input id="Age" type="number" required class="input" />
                 </label>
                 <label>
                   <h1>Higeht</h1>
@@ -42,6 +43,7 @@
                     required
                     placeholder="cm"
                     class="input"
+                    id="Higeht"
                   />
                 </label>
                 <label>
@@ -51,18 +53,33 @@
                     required
                     placeholder="Kg"
                     class="input"
+                    id="Weight"
+
                   />
                 </label>
                 <label class="gender-chk">
                   <h1>Gender</h1>
                   <span>Male</span>
-                  <input type="radio" name="Gender" class="Gender" />
+                  <input type="radio" name="Gender" class="Gender" value="1" />
                   <span>Female</span
-                  ><input type="radio" name="Gender" class="Gender" />
+                  ><input type="radio" name="Gender" class="Gender" value="2" />
                 </label>
                 <div class="submit-clear">
-                  <input class="submit-form" type="submit" value="Calulate" />
-                  <input class="rest-from" type="reset" value="Rest" />
+                  <input id="submit-form" class="submit-form" type="button" value="Calulate" />
+                  <input id="rest-form" class="rest-from" type="reset" value="Rest" />
+                </div>
+                <div  class="calorie-text">
+                  <h2 id="calorie-text">
+                    Your Body Mass Index is</h2>
+                                    
+                </div>
+                <div id="text" class="result">
+                  <h1 id="result-text">0</h1>
+                </div>
+                <div id="warning-text" class="warning-text">
+                  <h2 id="war1">*Please add an age</h2>
+                  <h2 id="war2">*Please add an higeht</h2>
+                  <h2 id="war3">*Please add an weight</h2>
                 </div>
               </form>
             </div>
@@ -192,5 +209,7 @@
         </div>
       </div>
     </footer>
+    <script src="./bmi.js"></script>
+
   </body>
 </html>

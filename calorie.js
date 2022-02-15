@@ -64,6 +64,8 @@ if(!(amr==0 || bmr==0)){
 };
 
 if($("#age").val().length===0){
+    $("#warning-text").show();
+
     $("#war1").show();
 }
 else if(!($("#age").val().length===0)){
@@ -71,6 +73,8 @@ else if(!($("#age").val().length===0)){
 };
 
 if($("#Higeht").val().length===0){
+    $("#warning-text").show();
+
     $("#war2").show();
 }
 else if(!($("#Higeht").val().length===0)){
@@ -78,6 +82,8 @@ else if(!($("#Higeht").val().length===0)){
 };
 
 if($("#Weight").val().length===0){
+    $("#warning-text").show();
+
     $("#war3").show();
 }
 else if(!($("#Weight").val().length===0)){
@@ -87,4 +93,6 @@ else if(!($("#Weight").val().length===0)){
 $("#rest-form").click(function(){
     $("#result-text").hide();
     $("#calorie-text").hide();
+    $("#warning-text").hide();
+
 });

@@ -328,7 +328,7 @@ font-size: 44px;
   justify-self: center;
   font-family: "Yanone Kaffeesatz", sans-serif;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1020px) {
   .cal-img img{
     display: none;
   }

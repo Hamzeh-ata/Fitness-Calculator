@@ -146,6 +146,10 @@ nav {
   padding: 80px;
 
 }
+.gender-chk {
+  width: 100%;
+
+}
 .gender-chk span {
   margin-right: 9px;
   color: #bbb9b9;
@@ -175,13 +179,11 @@ nav {
 }
 .submit-clear {
   display: flex;
-
   justify-content: center;
 }
 .SC2R1 {
   display: flex;
   justify-content: center;
-  margin-top: 150px;
 }
 .SC2R1 h1 {
   color: white;
@@ -225,7 +227,8 @@ nav {
   justify-content: center;
 }
 .sec4 {
-  margin-top: 20px;
+    margin-top: 20px;
+    padding: 55px;
 }
 .R1S4 h4 {
   color: white;
@@ -258,7 +261,7 @@ font-size: 30px;
 .Gender{
     width: 18px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .cal-img img{
     display: none;
   }
@@ -266,8 +269,37 @@ font-size: 30px;
     justify-content: center;
     display: flex;
   }
- 
+  .C1S1{
+width: 100% !important;
+min-width: 100% !important;
+  }
+.sec1{
+  padding: 40px !important;
 }
+
+}
+
+@media screen and (max-width: 500px) {
+  .cal-img img{
+    display: none;
+  }
+  .calculater-sec{
+    justify-content: center;
+    display: flex;
+  }
+  .C1S1{
+width: 100% !important;
+min-width: 100% !important;
+  }
+.sec1{
+  padding: 10px !important;
+}
+#formSec{
+  width: 100%;
+}
+}
+
+
 .sec5 {
   background-color: #131313;
   padding: 55px;

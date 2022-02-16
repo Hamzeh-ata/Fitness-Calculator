@@ -257,15 +257,6 @@ font-size: 44px;
 .Gender{
     width: 18px;
 }
-@media screen and (max-width: 800px) {
-  .cal-img img{
-    display: none;
-  }
-  .calculater-sec{
-    justify-content: center;
-    display: flex;
-  }
-}
 .calorie-text{
   padding-top: 11px;
 }
@@ -336,4 +327,39 @@ font-size: 44px;
   text-shadow: 3px 2px 2px #000000;
   justify-self: center;
   font-family: "Yanone Kaffeesatz", sans-serif;
+}
+@media screen and (max-width: 900px) {
+  .cal-img img{
+    display: none;
+  }
+  .calculater-sec{
+    justify-content: center;
+    display: flex;
+  }
+  .C1S1{
+width: 100% !important;
+min-width: 100% !important;
+  }
+.sec1{
+  padding: 40px !important;
+}
+}
+@media screen and (max-width: 500px) {
+  .cal-img img{
+    display: none;
+  }
+  .calculater-sec{
+    justify-content: center;
+    display: flex;
+  }
+  .C1S1{
+width: 100% !important;
+min-width: 100% !important;
+  }
+.sec1{
+  padding: 10px !important;
+}
+#formSec{
+  width: 100%;
+}
 }

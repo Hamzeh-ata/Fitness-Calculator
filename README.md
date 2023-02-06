@@ -1,6 +1,10 @@
 # Fitness-Calorie
 
-A site where you can find out how many calories you need and your body fat percentage
+Website to calculate calories , body fat percentage and Body Mass index
 
-![Screenshot 2022-08-16 131747](https://user-images.githubusercontent.com/89325220/184856610-3316b317-03c6-40ec-999d-9cb89ded410a.png)
+Bulit using bootsrap,css jquery
+
+![Screen Shot 2023-02-06 at 18 53 00-fullpage](https://user-images.githubusercontent.com/89325220/217019560-dd2396ed-b491-4fa7-a6e8-567b89d6c47c.png)
+
+
 
